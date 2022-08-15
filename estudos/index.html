@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Teste javascript</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body onload="validarDescricao()">
+    
+  <!--<h1>Identificação</h1>
+    <input type="button" value="Login" onclick="login()">
+    <div id="resultado">Olá.</div> -->
+
+    <!-- Mundar iamgem
+    <h1>Imagens</h1>
+      <a onmouseover="mudar('lampada', 'banner_imagem1.jpg')"
+      onmouseout="mudar('lampada', 'banner_imagem2.jpg')"> <img src="banner_imagem2.jpg" border="0" id="lampada">
+      </a> -->
+
+    <h1> Produtos</h1>
+    <table>
+    <tr>
+      <td>Descrição: </td>
+          <td>
+            <input type="text" id="desc" value="" size="20" maxlength="20" onblur=validarDescricao() />
+          </td>
+
+      <td>Quantidade: </td>
+          <td>
+            <input type="text" id="qtd" value="" size="3" maxlength="3" onblur=validarQuantidade() />
+          </td>
+
+      <td>Preço Unitário:</td>
+          <td>
+            <input type="text" id="unit" value="" size="10" maxlength="10" onblur=validarPreco() />
+          </td> 
+    </tr>
+
+    <tr>
+        <td colspan="2"><input type="submit" value="Calcular" onclick=calcular() /></td>
+    </tr>
+
+    <tr>
+        <td>Preço Total:</td> 
+        <td>
+          <input type="text" id="total" value="" size="10" readonly />
+        </td> 
+    </tr>
+        
+    </table>
+
+    <script  type="text/javascript" src="main.js" ></script>
+  </body>
+</html>
