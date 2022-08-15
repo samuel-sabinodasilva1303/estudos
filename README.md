@@ -1,0 +1,2 @@
+# estudos
+Estudos de JS com base no livro JAVASCRIPT DESCOMPLICADO - PROGRAMAÇÃO PARA WEB, IOT E DISPOSITIVOS MÓVEIS
